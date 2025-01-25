@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Sergi Pané">
+        <meta name="description" content="Página web de Sergi Pané">
+        <meta name="theme-color" content="#3c790a">
+        <meta name="generator" content="Django">
+        <link rel="icon" type="image/png" sizes="16x16" href="/portafoli/imatges/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <title>Activitats | Sergi Pané</title>        
+    </head>
+    <body>
+        <center>
+            <header>
+                <h1>Buscador de smartphones</h1>
+            </header>
+            <label>¿Qué marca de smartphone buscas?:
+                <input list="smartphones" type="text" name="marca">
+            </label>
+            <datalist id="smartphones">
+                <option value="Apple"></option>
+                <option value="Samsung"></option>
+                <option value="Huawei"></option>
+                <option value="Xiaomi"></option>
+                <option value="OnePlus"></option>
+            </datalist>
+            <select name="precio">
+                <option value="" aria-label="precio" disabled selected>Precio</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+                <option value="600">600</option>
+                <option value="700">700</option>
+                <option value="800">800</option>
+                <option value="900">900</option>
+                <option value="1000">1000</option>
+            </select>
+            <button type="submit">Buscar</button>
+        </center>
+        <a href="../../activitats.html">Volver a inicio</a>
+    </body>
+</html>
