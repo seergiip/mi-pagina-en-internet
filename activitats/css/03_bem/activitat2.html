@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Sergi Pané">
+        <meta name="description" content="Página web de Sergi Pané">
+        <meta name="theme-color" content="#3c790a">
+        <meta name="generator" content="Django">
+        <link rel="icon" type="image/png" sizes="16x16" href="/portafoli/imatges/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="icon" type="image/png" href="/portafoli/imatges/favicon.png">
+        <title>Activitats | Sergi Pané</title>
+        <style>
+            .header {
+                background-color: #3c790a;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+            .comentarios {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .comentarios__lista {
+                list-style: none;
+                padding: 0;
+            }
+            .comentarios__item {
+                background-color: #f1f1f1;
+                border-radius: 5px;
+                margin: 10px;
+                padding: 10px;
+            }
+            .coments__item--text {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Comentarios</h1>
+        </header>
+        <section class="comentarios">
+            <div>
+                <ul class="comentarios__lista"> 
+                    <li class="comentarios__item">
+                        <p class="coments__item--text">Este es el primer comentario</p>
+                    </li>
+                    <li class="comentarios__item">
+                        <p class="coments__item--text">Este es el segundo comentario</p>
+                    </li>
+                    <li class="comentarios__item">
+                        <p class="coments__item--text">Este es el tercer comentario</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <a href="../../activitatscss.html">Tornar al Índex</a>
+    </body>
+</html>
