@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Sergi Pané">
+        <meta name="description" content="Página web de Sergi Pané">
+        <meta name="theme-color" content="#3c790a">
+        <meta name="generator" content="Django">
+        <link rel="icon" type="image/png" sizes="16x16" href="/portafoli/imatges/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="icon" type="image/png" href="/portafoli/imatges/favicon.png">
+        <title>Activitats | Sergi Pané</title>
+        <style>
+            .titol{
+                text-align: center;
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+            }
+            .image{
+                height: 100vh;
+                width: auto;
+                display: block;
+            }
+            .list{
+                list-style-type: none;
+                padding: 0;
+                text-align: center;
+                position: absolute;
+                top: 10%;
+                left: 40%;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 10px;
+                border-radius: 10px;
+                display: flex;
+            }
+            .list li {
+                margin: 10px;
+            }
+            .list a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 10px; 
+            }
+            .list a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="titol">Tarjeta de contacto</h1>
+        </header>
+        <main class="container">
+            <section>
+                <nav>
+                    <ul class="list">
+                        <li><a href="/portafoli/imatges/curriculum_sergi.pdf">Curriculum Vitae</a></li>
+                        <li><a href="https://www.instagram.com/seergiip__/">Instagram</a></li>
+                        <li><a href="sergipanec@gmail.com">Email</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <div>
+                    <img src="/portafoli/imatges/perfil_sergi.jpg" alt="Sergi Pané" class="image"> 
+                </div>
+            </section>
+        </main>
+        <a href="../../activitatscss.html">Tornar al Índex</a>
+    </body>
+</html>
