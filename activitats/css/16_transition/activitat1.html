@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Sergi Pané">
+        <meta name="description" content="Página web de Sergi Pané">
+        <meta name="theme-color" content="#3c790a">
+        <meta name="generator" content="Django">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../portafoli/imatges/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Activitats | Sergi Pané</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                margin-left: 20%;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th, td {
+                padding: 8px;
+                text-align: left;
+            }
+
+            header {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            button {
+                display: block;
+                margin: 20px auto;
+            }
+
+            .name input:focus, .phoneNumber input:focus{
+                transition: all 0.4s ease-in-out;
+                border-color: transparent;
+                transform:scale(1.1);
+            }
+
+            button:hover{
+                background-color: transparent;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2"><h1>Formulario</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="name">
+                    <td>Nombre</td>
+                    <td><input type="text" name="nombre"></td>
+                </tr>
+                <tr class="phoneNumber">
+                    <td>Teléfono</td>
+                    <td><input type="text" name="telefono"></td>
+                </tr>
+                <tr class="send">
+                    <td colspan="2">
+                        <button type="submit">Enviar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="../../activitatscss.html">Tornar al Índex</a>
+    </body>
+</html>
