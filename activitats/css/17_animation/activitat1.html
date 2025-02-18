@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Sergi Pané">
+        <meta name="description" content="Página web de Sergi Pané">
+        <meta name="theme-color" content="#3c790a">
+        <meta name="generator" content="Django">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../portafoli/imatges/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Activitats | Sergi Pané</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            .eclips{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .sun{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: orangered;
+                margin: 200px;
+            }
+            .moon{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: grey;
+                animation: eclipse 10s infinite;
+            }
+            @keyframes eclipse {
+                0%{
+                    transform: translateX(0);
+                }
+                40% {
+                    transform: translateX(-350px); 
+                }
+                50%{
+                    transform: translateX(-350px);
+                }
+                100%{
+                    transform: translateX(-500px);
+                }
+            }
+        </style>
+</head>
+<body>
+    <div class="eclips">
+        <div class="sun"></div>
+        <div class="moon"></div>
+    </div>
+</body>
+</html>
