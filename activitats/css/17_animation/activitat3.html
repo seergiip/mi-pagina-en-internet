@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Sergi Pané">
+        <meta name="description" content="Página web de Sergi Pané">
+        <meta name="theme-color" content="#3c790a">
+        <meta name="generator" content="Django">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../portafoli/imatges/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Activitats | Sergi Pané</title>
+        <style>
+            body{
+                background-color: black;
+                width: 100%;
+                height: 100%;
+            }
+            .cookies{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                animation: fadeIn 5s linear;
+            }
+            .cookies-text{
+                width: 30%;
+                height: 30%;
+                border-radius: 5px;
+                background-color: white;
+            }
+            .cookies-title{
+                color: brown;
+                text-align: center;
+                font-size: 3rem;
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+            }
+            .cookies-accept{
+                padding: 10px;
+            }
+            .cookies-refuse{
+                padding: 10px;
+            }
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                20%{
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cookies">
+            <div class="cookies-text">
+                <h1 class="cookies-title">
+                    Cookies
+                </h1>
+                <div class="buttons">
+                    <button class="cookies-accept">
+                        Acceptar
+                    </button>
+                    <button class="cookies-refuse">
+                        Rebutjar
+                    </button>
+                </div>
+            </div>
+        </div>
+        <a href="../../activitatscss.html">Tornar al Índex</a>
+    </body>
+</html>
