@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="Sergi Pané">
+    <meta name="description" content="Página web de Sergi Pané">
+    <meta name="theme-color" content="#3c790a">
+    <meta name="generator" content="Django">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../portafoli/imatges/favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Activitats | Sergi Pané</title>
+    <style>
+        body{
+            width: 100wh;
+            height: 100vh;
+            background-color: darkgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .reloj{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 350px;
+            width: 350px;
+            border: 10px solid black;
+            border-radius: 50%;
+            background-color: white;
+        }
+        .agujas{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .agujas div {
+            position: absolute;
+            bottom: 50%;
+            left: 50%;
+            transform-origin: 50% 100%;
+        }
+        .hora{
+            width: 8px;
+            height: 70px;
+            background-color: black;
+            transform-origin: 50% 100%;
+            animation: girarHoras 43200s infinite linear;
+        }
+        .minutos{
+            width: 4px;
+            height: 100px;
+            background-color: black;
+            transform-origin: 50% 100%;
+            animation: girarMinutos 3600s infinite linear;
+        }
+        .segundos{
+            width: 3px;
+            height: 140px;
+            background-color: red;
+            transform-origin: 50% 100%;
+            animation: girarSegundos 60s infinite linear;
+        }
+        @keyframes girarMinutos {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes girarHoras {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes girarSegundos {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reloj">
+        <div class="agujas">
+            <div class="hora"></div>
+            <div class="minutos"></div>
+            <div class="segundos"></div>
+        </div>
+    </div>
+    <a href="../../activitatscss.html">Tornar al Índex</a>
+</body>
+</html>
