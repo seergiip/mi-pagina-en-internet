@@ -12,36 +12,35 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Activitats | Sergi Pané</title>
     <style>
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: brown;
-            min-height: 100vh;
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
         }
-        .loader{    
-            width: 100px;
-            height: 100px;
-            border: 10px solid white;
-            border-radius: 50%;
-            border-bottom: solid transparent 10px;
-            animation: loading 1s infinite linear;
+    
+        .pendulo {
+          width: 10px;
+          height: 150px;
+          background-color: black;
+          transform-origin: top center;
+          animation: swing 2s infinite ease-in-out;
         }
-        a{
-            margin-top: 10%;
-        }
-        @keyframes loading{
-            from{
-                transform: rotate(0deg);
-            }
-            to{
-                transform: rotate(360deg);
-            }   
+    
+        @keyframes swing {
+          0% {
+            transform: rotate(-30deg);
+          }
+          50% {
+            transform: rotate(30deg);
+          }
+          100% {
+            transform: rotate(-30deg);
+          }
         }
     </style>
 </head>
 <body>
-    <div class="loader"></div>
-    <a href="../../activitatscss.html">Tornar al Índex</a>
+    <div class="pendulo"></div>
 </body>
 </html>
