@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Sergi Pané">
+        <meta name="description" content="Página web de Sergi Pané">
+        <meta name="theme-color" content="#3c790a">
+        <meta name="generator" content="Django">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../../portafoli/imatges/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Activitats | Sergi Pané</title>
+        <style>
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+
+            }
+            .image{
+                animation: rotate 5s linear infinite;
+            }
+
+            @keyframes rotate{
+                0%{
+                    transform: rotate(0deg);
+                }
+                50%{
+                    transform: rotate(180deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <picture class="container">
+            <img src="../../../portafoli/imatges/noria.png" alt="Imagen de una noria" class="image"> 
+        </picture>
+        <a href="../../activitatscss.html">Tornar al Índex</a>
+    </body>
+</html>
