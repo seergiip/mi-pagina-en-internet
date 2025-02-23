@@ -1,0 +1,29 @@
+*{
+    color: white;
+}
+body{
+    background-color: black;
+    width: 100wh;
+    height: 100vh;
+}
+.title-main{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    text-align: center;
+}
+a:hover{
+    color: hotpink;
+}
