@@ -1,0 +1,30 @@
+*{
+    font-family: 'Poppins', serif;;
+}
+body{
+    background-color: black;
+    width: 100wh;
+    height: 100vh;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.title-main{
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.menu{
+    text-align: center;
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: hotpink;
+}
