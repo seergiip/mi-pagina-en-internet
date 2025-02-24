@@ -1,5 +1,6 @@
 *{
-    font-family: 'Poppins', serif;;
+    font-family: 'Poppins', serif;
+    color: white;
 }
 body{
     background-color: black;
@@ -13,7 +14,6 @@ body{
     min-height: 80vh;
 }
 .title-main{
-    color: white;
     font-size: 5rem;
     text-transform: uppercase;
 }
@@ -23,7 +23,6 @@ body{
 .menu a{
     padding: 10px;
     text-decoration: none;
-    color: white;
 }
 a:hover{
     color: hotpink;

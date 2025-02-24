@@ -7,7 +7,6 @@ body{
     height: 100vh;
 }
 .title-main{
-    color: white;
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -19,11 +18,15 @@ body{
 a{
     padding: 10px;
     text-decoration: none;
-    color: white;
 }
 .menu{
     text-align: center;
 }
 a:hover{
     color: hotpink;
+}
+.container{
+    display: inline-block;
+    margin-left: 40px;
+    width: 30%;
 }
