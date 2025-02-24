@@ -16,6 +16,7 @@ body{
 .title-main{
     font-size: 5rem;
     text-transform: uppercase;
+    animation: title 1s ease;
 }
 .menu{
     text-align: center;
@@ -26,4 +27,12 @@ body{
 }
 a:hover{
     color: hotpink;
+}
+@keyframes title{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
 }
