@@ -19,7 +19,9 @@ body{
     animation: title 1s ease;
 }
 .menu{
+    position: sticky;
     text-align: center;
+    padding: 2rem;
 }
 .menu a{
     padding: 10px;
@@ -30,7 +32,7 @@ a:hover{
 }
 @keyframes title{
     0%{
-        transform: translateY(-100%);
+        transform: translateY(-150%);
     }
     100%{
         transform: translateY(0%);
