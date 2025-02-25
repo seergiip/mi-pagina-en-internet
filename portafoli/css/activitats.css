@@ -28,11 +28,27 @@ a{
     width: 100wh;
     background-color: black;
 }
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+}
 a:hover{
     color: hotpink;
 }
 .container{
     display: inline-block;
-    margin-left: 40px;
     width: 30%;
+    padding: 1rem;
+}
+.contact-me{
+    position: absolute;
+    top: 15px;
+    left: 1300px;
+    padding: 1rem;
+    width: 100wh;
+    background-color: grey;
+    border-radius: 2rem;
+}
+.contact-me:hover{
+    transform: scale(1.1);
 }
