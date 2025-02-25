@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 60vh;
 }
 .title-main{
     font-size: 5rem;
@@ -43,6 +43,9 @@ a:hover{
     background-color: grey;
     border-radius: 2rem;
 }
+.contact-me a{
+    color: white;
+}
 .contact-me:hover{
     transform: scale(1.1);
 }
@@ -68,4 +71,46 @@ a:hover{
 .content-2{
     width: 50%;
     padding: 2rem;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.skills1{
+    border-radius: 50%;
+    width: 10%; 
+	aspect-ratio: 1 / 1;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.skills2{
+    border-radius: 50%;
+    width: 10%; 
+	aspect-ratio: 1 / 1;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.skills3{
+    border-radius: 50%;
+    width: 10%; 
+	aspect-ratio: 1 / 1;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.skills4{
+    border-radius: 50%;
+    width: 10%; 
+	aspect-ratio: 1 / 1;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 1rem;
 }
