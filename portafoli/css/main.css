@@ -85,36 +85,48 @@ a:hover{
     width: 10%; 
 	aspect-ratio: 1 / 1;
     background-color: grey;
-    border-radius: 50%;
     padding: 1rem;
     margin: 1rem;
+}
+.skills1 img{
+    width: 100%;
+    border-radius: 50%;
 }
 .skills2{
     border-radius: 50%;
     width: 10%; 
 	aspect-ratio: 1 / 1;
     background-color: grey;
-    border-radius: 50%;
     padding: 1rem;
     margin: 1rem;
+}
+.skills2 img{
+    width: 100%;
+    border-radius: 50%;
 }
 .skills3{
     border-radius: 50%;
     width: 10%; 
 	aspect-ratio: 1 / 1;
     background-color: grey;
-    border-radius: 50%;
     padding: 1rem;
     margin: 1rem;
+}
+.skills3 img{
+    width: 100%;
+    border-radius: 50%;
 }
 .skills4{
     border-radius: 50%;
     width: 10%; 
 	aspect-ratio: 1 / 1;
     background-color: grey;
-    border-radius: 50%;
     padding: 1rem;
     margin: 1rem;
+}
+.skills4 img{
+    width: 100%;
+    border-radius: 50%;
 }
 .contactme-box{
     display: flex;
@@ -147,6 +159,7 @@ form{
     box-sizing: border-box;
     outline:0;
 }
+
 textarea {
     height: 150px;
     line-height: 100%;
@@ -167,8 +180,9 @@ textarea {
     transition: all 0.3s;
     margin-top:-4px;
     font-weight:700;
-  }
-  [type="submit"]:hover { 
+}
+
+[type="submit"]:hover { 
     background: white; 
     color: grey;
 }
