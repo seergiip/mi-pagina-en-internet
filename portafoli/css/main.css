@@ -35,7 +35,7 @@ body{
 a:hover{
     color: hotpink;
 }
-.contact-me{
+.contactme-button{
     position: absolute;
     top: 15px;
     left: 1300px;
@@ -44,10 +44,10 @@ a:hover{
     background-color: grey;
     border-radius: 2rem;
 }
-.contact-me a{
+.contactme-button a{
     color: white;
 }
-.contact-me:hover{
+.contactme-button:hover{
     transform: scale(1.1);
 }
 @keyframes title{
@@ -115,4 +115,60 @@ a:hover{
     border-radius: 50%;
     padding: 1rem;
     margin: 1rem;
+}
+.contactme-box{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.contactme-box-title{
+    font-size: 2rem;
+}
+form{
+    max-width:420px;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.feedback-input {
+    color:white;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid grey;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+textarea {
+    height: 150px;
+    line-height: 100%;
+    resize:vertical;
+    max-height: 180px;
+}
+
+[type="submit"] {
+    width: 100%;
+    background:grey;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color: white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { 
+    background: white; 
+    color: grey;
 }
