@@ -4,7 +4,8 @@
     color: white;
 }
 body{
-    background-color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,70,1) 100%, rgba(0,212,255,1) 100%);
     width: 100wh;
     height: 100vh;
 }
@@ -28,7 +29,8 @@ a{
     text-align: center;
     padding: 2rem;
     width: 100wh;
-    background-color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,70,1) 100%, rgba(0,212,255,1) 100%);
 }
 .menu a{
     padding: 20px;
