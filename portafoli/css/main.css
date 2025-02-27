@@ -44,8 +44,8 @@ body{
 }
 .icon-insta{
     position: relative;
-    top: 300px;
-    left: 520px;
+    top: 200px;
+    left: 300px;
     border-radius: 50%;
     width: 20%; 
     aspect-ratio: 1 / 1;
@@ -55,8 +55,8 @@ body{
 }
 .icon-linkdn{
     position: relative;
-    top: 300px;
-    left: 520px;
+    top: 200px;
+    left: 300px;
     border-radius: 50%;
     width: 20%; 
     aspect-ratio: 1 / 1;
@@ -94,7 +94,7 @@ a:hover{
 .contactme-button{
     position: absolute;
     top: 15px;
-    left: 1300px;
+    left: 85%;
     padding: 1rem;
     width: 100wh;
     background-color: grey;
