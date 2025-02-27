@@ -244,3 +244,12 @@ textarea {
     background: white; 
     color: grey;
 }
+/*Css de Wireframe*/
+.wireframe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+    text-align: center;
+}
