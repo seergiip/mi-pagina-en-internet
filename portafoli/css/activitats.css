@@ -22,6 +22,7 @@ a{
     padding: 10px;
     text-decoration: none;
 }
+/*CSS de Menu header*/
 .menu{
     position: sticky;
     top: 0px;
@@ -47,7 +48,7 @@ a:hover{
 .contact-me{
     position: absolute;
     top: 15px;
-    left: 1300px;
+    left: 85%;
     padding: 1rem;
     width: 100wh;
     background-color: grey;
