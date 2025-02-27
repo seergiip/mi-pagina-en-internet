@@ -1,3 +1,4 @@
+/*CSS de font i de body*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     font-family: 'Poppins', serif;
@@ -8,17 +9,69 @@ body{
     width: 100wh;
     height: 100vh;
 }
+
+/*CSS de Title*/
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 70vh;
+    width: 80%;
 }
 .title-main{
     font-size: 5rem;
     text-transform: uppercase;
     animation: title 1s ease;
+    width: 100%;
+    margin: 0;
 }
+@keyframes title{
+    0%{
+        transform: translateY(-150%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+/*CSS per Iconos de Social Media*/
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 80vh;
+    width: 10%;
+}
+.icon-insta{
+    position: relative;
+    top: 300px;
+    left: 520px;
+    border-radius: 50%;
+    width: 20%; 
+    aspect-ratio: 1 / 1;
+    background-color: grey;
+    padding: 1rem;
+    margin: 1rem;
+}
+.icon-linkdn{
+    position: relative;
+    top: 300px;
+    left: 520px;
+    border-radius: 50%;
+    width: 20%; 
+    aspect-ratio: 1 / 1;
+    background-color: grey;
+    padding: 1rem;
+    margin: 1rem;
+}
+.icon-insta:hover{
+    transform: scale(1.1);
+}
+.icon-linkdn:hover{
+    transform: scale(1.1);
+}
+
+/*CSS de Menu header*/
 .menu{
     position: sticky;
     top: 0px;
@@ -35,6 +88,9 @@ body{
 a:hover{
     color: hotpink;
 }
+
+/*CSS de Contact Me Button*/
+
 .contactme-button{
     position: absolute;
     top: 15px;
@@ -50,14 +106,8 @@ a:hover{
 .contactme-button:hover{
     transform: scale(1.1);
 }
-@keyframes title{
-    0%{
-        transform: translateY(-150%);
-    }
-    100%{
-        transform: translateY(0%);
-    }
-}
+
+/*CSS de contenedors de About me*/
 .content{
     display: flex;
     justify-content: center;
@@ -74,6 +124,8 @@ a:hover{
     padding: 2rem;
     font-size: 1.3rem;
 }
+
+/*CSS de les Habilitats*/
 .skills{
     display: flex;
     justify-content: space-between;
@@ -84,7 +136,6 @@ a:hover{
     border-radius: 50%;
     width: 10%; 
 	aspect-ratio: 1 / 1;
-    background-color: grey;
     padding: 1rem;
     margin: 1rem;
 }
@@ -96,7 +147,6 @@ a:hover{
     border-radius: 50%;
     width: 10%; 
 	aspect-ratio: 1 / 1;
-    background-color: grey;
     padding: 1rem;
     margin: 1rem;
 }
@@ -108,7 +158,6 @@ a:hover{
     border-radius: 50%;
     width: 10%; 
 	aspect-ratio: 1 / 1;
-    background-color: grey;
     padding: 1rem;
     margin: 1rem;
 }
@@ -120,13 +169,22 @@ a:hover{
     border-radius: 50%;
     width: 10%; 
 	aspect-ratio: 1 / 1;
-    background-color: grey;
     padding: 1rem;
     margin: 1rem;
 }
 .skills4 img{
     width: 100%;
     border-radius: 50%;
+}
+
+/*CSS per Contact Me*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(10, 10, 10);
 }
 .contactme-box{
     display: flex;
