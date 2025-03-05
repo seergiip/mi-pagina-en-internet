@@ -183,7 +183,7 @@ a:hover{
 
 /*CSS per Contact Me*/
 
-.footer{
+.contactme{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,4 +257,22 @@ textarea {
     min-height: 50vh;
     width: 100%;
     text-align: center;
+}
+/*Css de footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,70,1) 100%, rgba(0,212,255,1) 100%);
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+    margin: 0rem 4rem 0rem 4rem;
+    font-size: 1.2rem;
 }
